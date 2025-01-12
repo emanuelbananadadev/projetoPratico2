@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  scroll-behavior: smooth;
 }
 
 section > div:nth-child(1) {
@@ -12,14 +14,7 @@ section > div:nth-child(1) {
   text-align: center;
 }
 
-#main span {
-  font: var(--subtitle);
-  color: var(--red);
-}
-
 #main  > div > h3 {
-  font: var(--title-md);
-  color: var(--gray-600);
   margin-block: 8px 56px;
 }
 
@@ -51,9 +46,6 @@ section > div:nth-child(1) {
 }
 
 .grid-card h3 {
-  font: var(--title-sm);
-  color: var(--gray-600);
-
   margin-bottom: 8px;
 }
 
@@ -61,3 +53,4 @@ section > div:nth-child(1) {
   font: var(--text-sm);
   color: var(--gray-500);
 }
+

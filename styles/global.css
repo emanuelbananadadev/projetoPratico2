@@ -33,3 +33,18 @@
 
 }
 
+span {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+h3 {
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--gray-500);
+}
+
