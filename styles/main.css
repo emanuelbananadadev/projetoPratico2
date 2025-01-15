@@ -35,6 +35,7 @@ section > div:nth-child(1) {
   background-color: var(--gray-300);
 
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .grid-card img {
@@ -52,5 +53,9 @@ section > div:nth-child(1) {
 .grid-card p {
   font: var(--text-sm);
   color: var(--gray-500);
+}
+
+#main .grid-card:hover {
+  border: 1.5px solid var(--gray-400);
 }
 
